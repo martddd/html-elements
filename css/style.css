@@ -35,7 +35,38 @@
       background: #a160a1;
       color: #fff; }
 
+.post_main {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px #ccc solid; }
+  .post_main .post_title {
+    padding: 0px 10px; }
+    .post_main .post_title h1 {
+      text-align: center;
+      margin: 5px 0px; }
+  .post_main .post_body .post_img img {
+    width: 100%; }
+  .post_main .post_body .post_img .post_text {
+    padding: 0px 10px;
+    border-bottom: 1px #eee solid; }
+    .post_main .post_body .post_img .post_text p {
+      text-align: justify; }
+  .post_main .post_footer {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
-  background: #ccc; }
+  background: #ccc;
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
+
+.h2_header {
+  text-align: center;
+  font-weight: lighter; }
 
 /*# sourceMappingURL=style.css.map */

@@ -47,3 +47,37 @@ $frm-color-color: $form-color;
         }
     }
 }
+
+.post_main{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+    
+    .post_title{
+        padding: 0px 10px;
+        h1{
+            text-align: center;
+            margin: 5px 0px;
+        }
+    }
+    .post_body{
+        .post_img{
+            img{
+                width: 100%;
+            }
+            .post_text{
+                padding: 0px 10px;
+                border-bottom: 1px #eee solid;
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    .post_footer{
+        padding: 5px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

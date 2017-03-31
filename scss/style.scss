@@ -1,6 +1,17 @@
 @import '_color-white.scss';
 @import '_index.scss';
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background: $body_bg;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.h2_header{
+    text-align: center;
+    font-weight: lighter;
 }

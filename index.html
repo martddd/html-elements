@@ -3,14 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <h2 class="h2_header">Форма</h2>
     <form class="form frm-color">
         <input type="text" name="" placeholder="Имя пользователя"/>
         <input type="text" name="" placeholder="Почта"/>
         <input type="text" name="" placeholder="Пароль"/>
         <button>Отправить</button>
     </form>
+    
+    <h2 class="h2_header">Посты</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="post_main">
+                    <div class="post_title">
+                        <h1>Заголовок</h1>
+                    </div>
+                    <div class="post_body">
+                        <div class="post_img">
+                            <img src="img/img_1.jpg" alt="">
+                            <div class="post_text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, totam, nesciunt, quisquam omnis rem quaerat eius accusamus non nam aliquam laborum deleniti. Vero, doloremque, magni ratione vel pariatur soluta saepe optio ut iure nulla rem quaerat distinctio totam minus laboriosam repudiandae dolore odit culpa perferendis corporis fugiat maiores est in.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post_footer">
+                        <div class="post_auth">Автор поста</div>
+                        <div class="post_date">Дата поста</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
 </body>
+    <script src="js/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
 </html>
