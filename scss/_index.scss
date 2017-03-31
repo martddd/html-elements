@@ -1,0 +1,49 @@
+@import '_color.scss';
+@import '_variables.scss';
+
+$frm-color-bg: $form-bg;
+$frm-color-color: $form-color;
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: $form-width;
+    margin: 0 auto;
+    border-radius: $form-border-radius;
+    padding: $form-padding-top $form-padding-right $form-padding-bottom $form-padding-left;
+    input{
+        width: $input-width;
+        height: $input-height;
+        font-size: $input-font-size;
+        margin-bottom: $input-margin-bottom;
+        border: $input-border $input-border-color solid;
+        border-radius: $input-border-radius;
+    }
+    button{
+        width: $button-width;
+        height: $button-height;
+        font-size: $button-font-size;
+        margin-bottom: $button-margin-bottom;
+        border: $button-border $button-border-color solid;
+        border-radius: $button-border-radius;
+    }
+}
+
+.frm-color{
+    background: $frm-color-bg;
+    color: $frm-color-color;
+    button{
+        background: $button-bg;
+        color: $button-color;
+        transition: $button-transition;
+        &:hover{
+            border: $button-border $button-border-color-hover solid;
+            border-radius: $button-border-radius;
+            background: $button-bg-hover;
+            color: $button-color-hover;
+        }
+    }
+}
